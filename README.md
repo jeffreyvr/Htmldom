@@ -3,19 +3,19 @@ Htmldom
 
 A Htmldom package for Laravel based on Simple HTML Dom Parser.
 
+Link: [Original package](https://github.com/yangqi/Htmldom)
+
 ## Installation
 
 Add the following line to the `require` section of `composer.json`:
 
-```json
-{
-    "require": {
-        "yangqi/htmldom": "1.0.*"
-    }
-}
+```bash
+composer require jeffreyvr/Htmldom
 ```
 
 ## Setup
+
+Only needed for older Laravel versions.
 
 1. Add the service provider to `config/app.php`.
 
