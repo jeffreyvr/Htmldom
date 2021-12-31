@@ -1,7 +1,7 @@
 Htmldom
 =======
 
-A Htmldom package for Laravel 4 and 5 based on Simple HTML Dom Parser
+A Htmldom package for Laravel based on Simple HTML Dom Parser.
 
 ## Installation
 
@@ -15,7 +15,7 @@ Add the following line to the `require` section of `composer.json`:
 }
 ```
 
-## Laravel 5 Setup (same as Laravel 4)
+## Setup
 
 1. Add the service provider to `config/app.php`.
 
@@ -28,7 +28,7 @@ Add the following line to the `require` section of `composer.json`:
 2. Add alias to `config/app.php`.
 
 ```php
-'aliases' => array(	
+'aliases' => array(
     ...
 	'Htmldom' => 'Yangqi\Htmldom\Htmldom',
     ...
@@ -41,12 +41,12 @@ Add the following line to the `require` section of `composer.json`:
 ```php
 $html = new \Htmldom('http://www.example.com');
 
-// Find all images 
-foreach($html->find('img') as $element) 
+// Find all images
+foreach($html->find('img') as $element)
        echo $element->src . '<br>';
 
-// Find all links 
-foreach($html->find('a') as $element) 
+// Find all links
+foreach($html->find('a') as $element)
        echo $element->href . '<br>';
 ```
 
