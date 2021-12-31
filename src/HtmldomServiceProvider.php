@@ -1,4 +1,6 @@
-<?php namespace Yangqi\Htmldom;
+<?php
+
+namespace Yangqi\Htmldom;
 
 use Illuminate\Support\ServiceProvider;
 
