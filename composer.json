@@ -1,5 +1,5 @@
 {
-    "name": "yangqi/htmldom",
+    "name": "jeffreyvr/htmldom",
     "description": "Simple Html Dom Parser for Laravel",
     "keywords": ["laravel", "html parser"],
     "license": "MIT",
